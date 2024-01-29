@@ -9,3 +9,11 @@ func sayGoodBye(name string) string {
 
 	return fmt.Sprintf("Bye Bye %s", name)
 }
+
+func sayHello(name string) string {
+	if len(name) == 0 {
+		return "Hello Anonymous"
+	}
+
+	return fmt.Sprintf("Hello %s", name)
+}
